@@ -22,6 +22,9 @@ all_modules = [
     [
         Module('property.odd'),
         Module('representation.roman_numerals'),
+        Module('representation.octal'),
+        Module('representation.binary'),
+        Module('representation.hexadecimal'),
     ],
     [],
 ]

@@ -5,6 +5,9 @@
 - read source (and look at API) of well-designed python libraries
 
 
+- integrate unit testing into module files themselves
+- + profiling
+
 - linkify [things] in README
 - Python 3 friendliness
 
