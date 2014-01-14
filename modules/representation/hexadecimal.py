@@ -1,5 +1,5 @@
+def convert_to(n):
+    return hex(n)[2:]
 
-class Hexadecimal(object):
-    @classmethod
-    def convert(cls, n):
-        return hex(n)
+def convert_from(hexadecimal):
+    return int(hexadecimal, base=16)

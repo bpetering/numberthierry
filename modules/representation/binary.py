@@ -1,7 +1,6 @@
-# TODO this seems too cumebrsome - make easier to return multiple results from
-# a module - e.g. conversions to bases X, Y, Z
+def convert_to(n):
+    # Python prefixes are stripped for consistency with non-Python formats
+    return bin(n)[2:]
 
-class Binary(object):
-    @classmethod
-    def convert(cls, n):
-        return bin(n)
+def convert_from(binary):
+    return int(binary, base=2)

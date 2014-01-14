@@ -78,6 +78,7 @@ def convert_to(n):
 
 def convert_from(roman):
     # TODO handle bogus XXXX as 40?
+    # TODO handle arbitrary-sized integers
     table = {
         'M':    1000,
         'CM':   900,
